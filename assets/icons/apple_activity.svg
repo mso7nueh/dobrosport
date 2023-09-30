@@ -1,0 +1,26 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" rx="5.24741" fill="#1E1E1E"/>
+<circle cx="12" cy="12" r="2.8" stroke="url(#paint0_angular_126_6536)" stroke-width="2.4"/>
+<circle cx="12" cy="12" r="6" stroke="url(#paint1_angular_126_6536)" stroke-width="2.4"/>
+<circle cx="12" cy="12" r="9.2" stroke="url(#paint2_angular_126_6536)" stroke-width="2.4"/>
+<circle cx="12" cy="9.2" r="1.2" fill="#74F9B5"/>
+<circle cx="12" cy="6.00002" r="1.2" fill="#DDFE52"/>
+<circle cx="12" cy="2.80001" r="1.2" fill="#EA4289"/>
+<defs>
+<radialGradient id="paint0_angular_126_6536" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 12) rotate(-90) scale(4)">
+<stop stop-color="#41A09F"/>
+<stop offset="0.237771" stop-color="#68E3F4"/>
+<stop offset="1" stop-color="#75FBAF"/>
+</radialGradient>
+<radialGradient id="paint1_angular_126_6536" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 12) rotate(-90) scale(7.2)">
+<stop stop-color="#73A632"/>
+<stop offset="0.167303" stop-color="#AFFC4E"/>
+<stop offset="1" stop-color="#DFFE52"/>
+</radialGradient>
+<radialGradient id="paint2_angular_126_6536" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 12) rotate(-90) scale(10.4)">
+<stop stop-color="#B1304C"/>
+<stop offset="0.139915" stop-color="#EA402E"/>
+<stop offset="1" stop-color="#EA428E"/>
+</radialGradient>
+</defs>
+</svg>
