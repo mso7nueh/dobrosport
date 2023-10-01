@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class CustomAccentButtonWidget extends StatelessWidget {
   final String title;
-  final Function() onTap;
+  final Function()? onTap;
 
   const CustomAccentButtonWidget({super.key, required this.title, required this.onTap});
 
@@ -20,7 +20,7 @@ class CustomAccentButtonWidget extends StatelessWidget {
           ),
         ),
       ),
-      tileColor: AppColors.accent,
+      tileColor: onTap == null ? AppColors.grey : AppColors.accent,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(48.0),
       ),
