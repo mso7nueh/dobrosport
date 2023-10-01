@@ -7,6 +7,7 @@ import 'package:dobrosport/common/widgets/white_scaffold_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 
 class ProfileHealthInfoScreen extends StatefulWidget {
@@ -200,7 +201,9 @@ class _ProfileHealthInfoScreenState extends State<ProfileHealthInfoScreen> {
             const Spacer(),
             CustomAccentButtonWidget(
               title: Strings.next,
-              onTap: () {},
+              onTap: () {
+                context.goNamed('fundSelectionScreen');
+              },
             ),
           ],
         ),

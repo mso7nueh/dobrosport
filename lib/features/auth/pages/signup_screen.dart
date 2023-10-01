@@ -19,7 +19,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   final TextEditingController emailAddressTextEditingController = TextEditingController();
   final TextEditingController passwordTextEditingController = TextEditingController();
 
-  bool passwordIsVisibly = false;
+  bool passwordIsVisibly = true;
 
   @override
   Widget build(BuildContext context) {
@@ -63,7 +63,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             CustomAccentButtonWidget(
               title: Strings.register,
               onTap: () {
-                context.goNamed('loginScreen');
+                context.goNamed('profileInfoScreen');
               },
             ),
             const SizedBox(height: 8.0),

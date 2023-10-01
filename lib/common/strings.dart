@@ -18,6 +18,12 @@ abstract class Strings {
   static const notSet = 'Не выбрано';
   static const birthday = 'Дата рождения';
   static const sex = 'Пол';
+  static const activity = 'Активность';
+  static const goodness = 'Добро';
+  static const start = 'Старт';
+  static const rating = 'Рейтинг';
+  static const challenges = 'Челленджи';
+  static const challengesDescription = 'Выполняйте задания наших\nпартнёров и получайте\nвознаграждения';
   static const weight = 'Вес';
   static const settingsHealth = 'Настройка\nпараметров';
   static const settingsHealthDescription = 'Заполните данные о себе\nдля корректного подсчёта активности';

@@ -16,11 +16,11 @@ class CustomAccentButtonWidget extends StatelessWidget {
         child: Text(
           title,
           style: TextStyles.medium16.copyWith(
-            color: Colors.white,
+            color: onTap == null ? Colors.black : Colors.white,
           ),
         ),
       ),
-      tileColor: onTap == null ? AppColors.grey : AppColors.accent,
+      tileColor: onTap == null ? AppColors.grey3 : AppColors.accent,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(48.0),
       ),

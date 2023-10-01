@@ -18,7 +18,7 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController emailAddressTextEditingController = TextEditingController();
   final TextEditingController passwordTextEditingController = TextEditingController();
 
-  bool passwordIsVisibly = false;
+  bool passwordIsVisibly = true;
 
   @override
   Widget build(BuildContext context) {
@@ -62,7 +62,12 @@ class _LoginScreenState extends State<LoginScreen> {
             CustomAccentButtonWidget(
               title: Strings.enter,
               onTap: () {
-                context.goNamed('profileInfoScreen');
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    backgroundColor: Colors.white,
+                    content: Center(child: Text('Аккаунт не найден в системе!', style: TextStyles.medium16.copyWith(color: Colors.red),)),
+                  ),
+                );
               },
             ),
             const SizedBox(height: 8.0),

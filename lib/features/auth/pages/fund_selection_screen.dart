@@ -11,6 +11,7 @@ import 'package:dobrosport/locator_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:go_router/go_router.dart';
 
 class FundSelectionScreen extends StatefulWidget {
   const FundSelectionScreen({super.key});
@@ -79,7 +80,9 @@ class _FundSelectionScreenState extends State<FundSelectionScreen> {
                   const Spacer(),
                   CustomAccentButtonWidget(
                     title: Strings.selectFund,
-                    onTap: selectedFund == null ? null : () {},
+                    onTap: selectedFund == null ? null : () {
+                      context.goNamed('activityScreen');
+                    },
                   ),
                 ],
               ),
